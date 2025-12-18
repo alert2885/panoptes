@@ -1,0 +1,307 @@
+{% extends "base.html" %}
+
+{% block title %}Classification - REFER FIM{% endblock %}
+
+{% block extra_head %}
+<style>
+    .global-edit-btn, .global-save-btn {
+        display: none;
+    }
+    .global-edit-btn.show, .global-save-btn.show {
+        display: inline-block;
+    }
+    .classification-text {
+        display: inline-block;
+        padding: 8px 16px;
+        border-radius: 8px;
+        font-weight: 600;
+        font-size: 0.9rem;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 style="color: var(--text-primary);"><i class="bi bi-tags"></i> File Classification</h1>
+    <div>
+        <button type="button" 
+                class="btn-cyber btn-cyber-primary global-edit-btn show" 
+                id="globalEditBtn"
+                onclick="enableEditMode()">
+            <i class="bi bi-pencil-square"></i> Edit Classifications
+        </button>
+        <button type="button" 
+                class="btn-cyber btn-cyber-success global-save-btn" 
+                id="globalSaveBtn"
+                onclick="saveAllClassifications()">
+            <i class="bi bi-check-circle"></i> Save All Changes
+        </button>
+    </div>
+</div>
+
+<!-- Filter Section -->
+<div class="filter-panel">
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h5 class="cyber-card-title mb-0"><i class="bi bi-funnel"></i> Filters</h5>
+        <button type="button" class="btn-cyber btn-cyber-secondary" onclick="toggleFilterPanel()">
+            <i class="bi bi-chevron-down" id="filterToggleIcon"></i>
+        </button>
+    </div>
+    
+    <div id="filterContent">
+        <form method="GET" action="/classification" id="filterForm">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" 
+                           class="input-cyber" 
+                           id="searchInput" 
+                           name="search" 
+                           placeholder="Search file path..."
+                           value="{{ search_query }}">
+                </div>
+            </div>
+            
+            <div class="filter-section">
+                <div class="filter-label">Filter by endpoint:</div>
+                <div class="checkbox-group">
+                    {% if available_endpoints %}
+                        {% for endpoint in available_endpoints %}
+                        <div class="checkbox-cyber">
+                            <input type="checkbox" 
+                                   class="endpoint-checkbox" 
+                                   id="endpoint_{{ loop.index }}" 
+                                   name="endpoints" 
+                                   value="{{ endpoint }}"
+                                   {% if endpoint in selected_endpoints %}checked{% endif %}>
+                            <label for="endpoint_{{ loop.index }}">{{ endpoint }}</label>
+                        </div>
+                        {% endfor %}
+                    {% else %}
+                        <p style="color: var(--text-muted);">No endpoints found in database.</p>
+                    {% endif %}
+                </div>
+            </div>
+            
+            <div class="d-flex gap-2">
+                <button type="submit" class="btn-cyber btn-cyber-primary">Apply Filters</button>
+                <a href="/classification" class="btn-cyber btn-cyber-secondary">Clear Filters</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Classification Files Panel -->
+<div class="cyber-card">
+    <div class="cyber-card-header">
+        <h5 class="cyber-card-title"><i class="bi bi-files"></i> File Classifications</h5>
+    </div>
+    
+    {% if files %}
+    <div>
+        {% for file in files %}
+        <div class="file-panel">
+            <div class="file-path">{{ file.file_path }}</div>
+            <div class="file-meta">
+                <span class="file-meta-item">
+                    <i class="bi bi-clock"></i> {{ file.last_timestamp }}
+                </span>
+                <span class="file-meta-item">
+                    <i class="bi bi-server"></i> {{ file.endpoint }}
+                </span>
+                <span class="file-meta-item">
+                    <i class="bi bi-pc-display"></i> {{ file.hostname }}
+                </span>
+                <span class="file-meta-item">
+                    <i class="bi bi-person"></i> {{ file.username }}
+                </span>
+            </div>
+            <div class="file-classification">
+                <!-- Classification text (visible in view mode) -->
+                <span class="classification-text" id="classification_text_{{ loop.index }}">
+                    {% if file.classification %}
+                        <span style="
+                            padding: 8px 16px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            font-size: 0.9rem;
+                            {% if file.classification == 'Top Secret' %}
+                                background: rgba(239, 68, 68, 0.2);
+                                color: var(--accent-red);
+                                border: 1px solid var(--accent-red);
+                            {% elif file.classification == 'Secret' %}
+                                background: rgba(251, 191, 36, 0.2);
+                                color: var(--accent-yellow);
+                                border: 1px solid var(--accent-yellow);
+                            {% elif file.classification == 'Confidential' %}
+                                background: rgba(34, 211, 238, 0.2);
+                                color: var(--accent-cyan);
+                                border: 1px solid var(--accent-cyan);
+                            {% else %}
+                                background: rgba(156, 163, 175, 0.2);
+                                color: var(--text-secondary);
+                                border: 1px solid var(--border-color);
+                            {% endif %}
+                        ">
+                            {{ file.classification }}
+                        </span>
+                    {% else %}
+                        <span style="
+                            padding: 8px 16px;
+                            border-radius: 8px;
+                            font-weight: 600;
+                            font-size: 0.9rem;
+                            background: rgba(156, 163, 175, 0.2);
+                            color: var(--text-muted);
+                            border: 1px solid var(--border-color);
+                        ">
+                            Unclassified
+                        </span>
+                    {% endif %}
+                </span>
+                
+                <!-- Classification dropdown (hidden in view mode, visible in edit mode) -->
+                <select name="classification" 
+                        id="classification_{{ loop.index }}"
+                        class="form-select form-select-sm classification-dropdown d-none" 
+                        style="width: auto; min-width: 200px; background: var(--bg-secondary); border: 1px solid var(--border-color); color: var(--text-primary); border-radius: 8px; padding: 8px 12px;">
+                    <option value="" {% if not file.classification %}selected{% endif %}>-- Select --</option>
+                    <option value="Unclassified" {% if file.classification == 'Unclassified' %}selected{% endif %}>Unclassified</option>
+                    <option value="Confidential" {% if file.classification == 'Confidential' %}selected{% endif %}>Confidential</option>
+                    <option value="Secret" {% if file.classification == 'Secret' %}selected{% endif %}>Secret</option>
+                    <option value="Top Secret" {% if file.classification == 'Top Secret' %}selected{% endif %}>Top Secret</option>
+                </select>
+            </div>
+            
+            <!-- Hidden data for saving -->
+            <input type="hidden" id="file_path_{{ loop.index }}" value="{{ file.file_path }}">
+            <input type="hidden" id="endpoint_{{ loop.index }}" value="{{ file.endpoint }}">
+            <input type="hidden" id="hostname_{{ loop.index }}" value="{{ file.hostname }}">
+            <input type="hidden" id="username_{{ loop.index }}" value="{{ file.username }}">
+        </div>
+        {% endfor %}
+    </div>
+    {% else %}
+    <div class="text-center" style="padding: 40px; color: var(--text-muted);">
+        <i class="bi bi-inbox" style="font-size: 3rem; opacity: 0.5;"></i>
+        <p style="margin-top: 15px;">No files found</p>
+    </div>
+    {% endif %}
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    function toggleFilterPanel() {
+        const content = document.getElementById('filterContent');
+        const icon = document.getElementById('filterToggleIcon');
+        if (content.style.display === 'none') {
+            content.style.display = 'block';
+            icon.classList.remove('bi-chevron-up');
+            icon.classList.add('bi-chevron-down');
+        } else {
+            content.style.display = 'none';
+            icon.classList.remove('bi-chevron-down');
+            icon.classList.add('bi-chevron-up');
+        }
+    }
+    
+    function enableEditMode() {
+        // Hide all classification text spans
+        document.querySelectorAll('.classification-text').forEach(text => {
+            text.classList.add('d-none');
+        });
+        
+        // Show all classification dropdowns
+        document.querySelectorAll('.classification-dropdown').forEach(dropdown => {
+            dropdown.classList.remove('d-none');
+        });
+        
+        // Hide Edit button, show Save All button
+        document.getElementById('globalEditBtn').classList.remove('show');
+        document.getElementById('globalSaveBtn').classList.add('show');
+    }
+    
+    function saveAllClassifications() {
+        // Collect all file data
+        const allFiles = [];
+        const dropdowns = document.querySelectorAll('.classification-dropdown');
+        
+        dropdowns.forEach((dropdown, index) => {
+            const rowIndex = index + 1;
+            const filePath = document.getElementById('file_path_' + rowIndex).value;
+            const classification = dropdown.value || '';
+            const endpoint = document.getElementById('endpoint_' + rowIndex).value;
+            const hostname = document.getElementById('hostname_' + rowIndex).value;
+            const username = document.getElementById('username_' + rowIndex).value;
+            
+            allFiles.push({
+                file_path: filePath,
+                classification: classification,
+                endpoint: endpoint,
+                hostname: hostname,
+                username: username
+            });
+        });
+        
+        // Create form data
+        const formData = new FormData();
+        formData.append('files', JSON.stringify(allFiles));
+        
+        // Save all via AJAX
+        fetch('/classification/save-all', {
+            method: 'POST',
+            body: formData
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                // Update classification text and hide dropdowns, show text spans
+                document.querySelectorAll('.classification-dropdown').forEach((dropdown, index) => {
+                    const rowIndex = index + 1;
+                    const classification = dropdown.value || '';
+                    
+                    // Get the corresponding text span
+                    const textSpan = document.getElementById('classification_text_' + rowIndex);
+                    
+                    // Create new span with updated classification
+                    let newContent = '';
+                    if (classification && classification !== '') {
+                        let style = '';
+                        if (classification === 'Top Secret') {
+                            style = 'background: rgba(239, 68, 68, 0.2); color: var(--accent-red); border: 1px solid var(--accent-red);';
+                        } else if (classification === 'Secret') {
+                            style = 'background: rgba(251, 191, 36, 0.2); color: var(--accent-yellow); border: 1px solid var(--accent-yellow);';
+                        } else if (classification === 'Confidential') {
+                            style = 'background: rgba(34, 211, 238, 0.2); color: var(--accent-cyan); border: 1px solid var(--accent-cyan);';
+                        } else {
+                            style = 'background: rgba(156, 163, 175, 0.2); color: var(--text-secondary); border: 1px solid var(--border-color);';
+                        }
+                        
+                        newContent = `<span style="padding: 8px 16px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; ${style}">${classification}</span>`;
+                    } else {
+                        newContent = `<span style="padding: 8px 16px; border-radius: 8px; font-weight: 600; font-size: 0.9rem; background: rgba(156, 163, 175, 0.2); color: var(--text-muted); border: 1px solid var(--border-color);">Unclassified</span>`;
+                    }
+                    
+                    textSpan.innerHTML = newContent;
+                    
+                    // Hide dropdown, show text
+                    dropdown.classList.add('d-none');
+                    textSpan.classList.remove('d-none');
+                });
+                
+                // Hide Save All button, show Edit button
+                document.getElementById('globalSaveBtn').classList.remove('show');
+                document.getElementById('globalEditBtn').classList.add('show');
+                
+                alert('All classifications saved successfully!');
+            } else {
+                alert('Error saving classifications: ' + (data.message || 'Unknown error'));
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            alert('Error saving classifications. Please try again.');
+        });
+    }
+</script>
+{% endblock %}

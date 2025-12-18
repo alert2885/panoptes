@@ -1,0 +1,383 @@
+{% extends "base.html" %}
+
+{% block title %}Dashboard - REFER FIM{% endblock %}
+
+{% block extra_head %}
+<style>
+    .global-edit-btn, .global-save-btn {
+        display: none;
+    }
+    .global-edit-btn.show, .global-save-btn.show {
+        display: inline-block;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1 style="color: var(--text-primary); margin: 0;"><i class="bi bi-speedometer2"></i> Dashboard</h1>
+    
+    <!-- Search and Filter Section (Top Right) -->
+    <div class="top-search-filter">
+        <form method="GET" action="/" id="mainForm" class="d-flex gap-2 align-items-center">
+            <input type="text" 
+                   class="input-cyber" 
+                   name="search" 
+                   placeholder="Search events..." 
+                   value="{{ search_query }}"
+                   id="searchInput"
+                   style="width: 300px;">
+            <!-- Hidden fields for event types and columns -->
+            <input type="hidden" name="types" id="eventTypesInput" value="">
+            <input type="hidden" name="columns" id="searchColumnsInput" value="">
+            <button type="button" 
+                    class="btn-cyber btn-cyber-secondary"
+                    id="filterToggleBtn"
+                    onclick="toggleAdvancedFilter()">
+                <i class="bi bi-funnel"></i> Filter
+            </button>
+        </form>
+    </div>
+</div>
+
+<!-- Advanced Filter Panel (Collapsible) -->
+<div class="advanced-filter-panel{% if has_active_filters %} show{% endif %}" id="advancedFilter" style="display: {% if has_active_filters %}block{% else %}none{% endif %}; margin-bottom: 20px;">
+    <div class="cyber-card">
+        <form method="GET" action="/" id="filterForm">
+            <input type="hidden" name="search" value="{{ search_query }}">
+            
+            <!-- Column-based search scope -->
+            <div class="filter-section">
+                <div class="filter-label">Search in columns:</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colAll" value="all" {% if 'all' in selected_search_columns or not selected_search_columns or selected_search_columns|length == 0 %}checked{% endif %}>
+                        <label for="colAll">All</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colTimestamp" value="timestamp" {% if 'timestamp' in selected_search_columns %}checked{% endif %}>
+                        <label for="colTimestamp">Timestamp</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colEventType" value="event_type" {% if 'event_type' in selected_search_columns %}checked{% endif %}>
+                        <label for="colEventType">Event Type</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colFilePath" value="file_path" {% if 'file_path' in selected_search_columns %}checked{% endif %}>
+                        <label for="colFilePath">File Path</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colEndpoint" value="endpoint" {% if 'endpoint' in selected_search_columns %}checked{% endif %}>
+                        <label for="colEndpoint">Endpoint</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colHostname" value="hostname" {% if 'hostname' in selected_search_columns %}checked{% endif %}>
+                        <label for="colHostname">Hostname</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="column-checkbox" id="colUsername" value="username" {% if 'username' in selected_search_columns %}checked{% endif %}>
+                        <label for="colUsername">Username</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Event type filter -->
+            <div class="filter-section">
+                <div class="filter-label">Filter by event type:</div>
+                <div class="checkbox-group">
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="event-type-checkbox" id="eventAll" value="all" {% if 'all' in selected_event_types or not selected_event_types or selected_event_types|length == 0 %}checked{% endif %}>
+                        <label for="eventAll">All</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="event-type-checkbox" id="eventCreated" value="created" {% if 'created' in selected_event_types %}checked{% endif %}>
+                        <label for="eventCreated">Created</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="event-type-checkbox" id="eventModified" value="modified" {% if 'modified' in selected_event_types %}checked{% endif %}>
+                        <label for="eventModified">Modified</label>
+                    </div>
+                    <div class="checkbox-cyber">
+                        <input type="checkbox" class="event-type-checkbox" id="eventDeleted" value="deleted" {% if 'deleted' in selected_event_types %}checked{% endif %}>
+                        <label for="eventDeleted">Deleted</label>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex gap-2">
+                <button type="button" class="btn-cyber btn-cyber-primary" onclick="applyFilters()">Apply Filters</button>
+                <button type="button" class="btn-cyber btn-cyber-secondary" onclick="resetFilters()">Reset</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<!-- Metric Cards -->
+<div class="metrics-grid">
+    <div class="metric-card all">
+        <i class="bi bi-list-ul metric-icon"></i>
+        <div class="metric-label">Total Events</div>
+        <div class="metric-value">{{ event_counts.all }}</div>
+        <div class="metric-change">All time</div>
+    </div>
+    <div class="metric-card created">
+        <i class="bi bi-plus-circle metric-icon"></i>
+        <div class="metric-label">Created Events</div>
+        <div class="metric-value">{{ event_counts.created }}</div>
+        <div class="metric-change">Files created</div>
+    </div>
+    <div class="metric-card modified">
+        <i class="bi bi-pencil-square metric-icon"></i>
+        <div class="metric-label">Modified Events</div>
+        <div class="metric-value">{{ event_counts.modified }}</div>
+        <div class="metric-change">Files modified</div>
+    </div>
+    <div class="metric-card deleted">
+        <i class="bi bi-trash metric-icon"></i>
+        <div class="metric-label">Deleted Events</div>
+        <div class="metric-value">{{ event_counts.deleted }}</div>
+        <div class="metric-change">Files deleted</div>
+    </div>
+</div>
+
+<!-- Recent Events Panel -->
+<div class="cyber-card">
+    <div class="cyber-card-header">
+        <h5 class="cyber-card-title"><i class="bi bi-clock-history"></i> Recent Events</h5>
+    </div>
+    
+    {% if events %}
+    <ul class="event-panel-list">
+        {% for event in events %}
+        <li class="event-item">
+            <div class="event-dot {{ event.event_type }}"></div>
+            <div class="event-content">
+                <div class="event-path">{{ event.file_path }}</div>
+                <div class="event-meta">
+                    <span class="event-badge {{ event.event_type }}">{{ event.event_type.upper() }}</span>
+                    <span><i class="bi bi-server"></i> {{ event.endpoint }}</span>
+                    <span><i class="bi bi-pc-display"></i> {{ event.hostname }}</span>
+                    <span><i class="bi bi-person"></i> {{ event.username }}</span>
+                </div>
+            </div>
+            <div class="event-timestamp">{{ event.timestamp }}</div>
+            <div class="event-actions">
+                <button type="button" 
+                        class="btn-icon"
+                        data-bs-toggle="modal" 
+                        data-bs-target="#hashModal"
+                        data-timestamp="{{ event.timestamp }}"
+                        data-file-path="{{ event.file_path }}"
+                        data-event-type="{{ event.event_type }}"
+                        data-hash-before="{{ event.hash_before or '-' }}"
+                        data-hash-after="{{ event.hash_after or '-' }}"
+                        data-state-hash="{{ event.state_hash or '-' }}"
+                        data-content-hash="{{ event.content_hash or event.hash_after or '-' }}"
+                        data-file-size="{{ event.file_size or '-' }}"
+                        data-metadata="{{ event.metadata_json | tojson if event.metadata_json else '{}' }}"
+                        data-alert-sent="{{ 'Yes' if event.alert_sent else 'No' }}"
+                        onclick="showHashModal(this)">
+                    <i class="bi bi-info-circle"></i> Info
+                </button>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <div class="text-center" style="padding: 40px; color: var(--text-muted);">
+        <i class="bi bi-inbox" style="font-size: 3rem; opacity: 0.5;"></i>
+        <p style="margin-top: 15px;">No events found</p>
+    </div>
+    {% endif %}
+</div>
+
+<!-- Hash Info Modal -->
+<div class="modal fade modal-cyber" id="hashModal" tabindex="-1" aria-labelledby="hashModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="hashModalLabel"><i class="bi bi-file-earmark-lock"></i> File Hash Information</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="info-row">
+                    <div class="info-label">Timestamp</div>
+                    <div class="info-value" id="timestampValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">File Path</div>
+                    <div class="info-value" id="filePathValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Event Type</div>
+                    <div class="info-value" id="eventTypeValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Hash Before</div>
+                    <div class="info-value" id="hashBeforeValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Hash After</div>
+                    <div class="info-value" id="hashAfterValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">State Hash</div>
+                    <div class="info-value" id="stateHashValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Content Hash</div>
+                    <div class="info-value" id="contentHashValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">File Size</div>
+                    <div class="info-value" id="fileSizeValue">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Metadata JSON</div>
+                    <div class="info-value" id="metadataValue" style="max-height: 200px; overflow-y: auto;">-</div>
+                </div>
+                <div class="info-row">
+                    <div class="info-label">Alert Sent</div>
+                    <div class="info-value" id="alertSentValue">-</div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn-cyber btn-cyber-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+    function showHashModal(button) {
+        const timestamp = button.getAttribute('data-timestamp');
+        const filePath = button.getAttribute('data-file-path');
+        const eventType = button.getAttribute('data-event-type');
+        const hashBefore = button.getAttribute('data-hash-before');
+        const hashAfter = button.getAttribute('data-hash-after');
+        const stateHash = button.getAttribute('data-state-hash') || '-';
+        const contentHash = button.getAttribute('data-content-hash') || '-';
+        const fileSize = button.getAttribute('data-file-size') || '-';
+        const metadata = button.getAttribute('data-metadata') || '{}';
+        const alertSent = button.getAttribute('data-alert-sent') || 'No';
+        
+        document.getElementById('timestampValue').textContent = timestamp || '-';
+        document.getElementById('filePathValue').textContent = filePath || '-';
+        document.getElementById('eventTypeValue').textContent = eventType ? eventType.toUpperCase() : '-';
+        document.getElementById('hashBeforeValue').textContent = hashBefore || '-';
+        document.getElementById('hashAfterValue').textContent = hashAfter || '-';
+        document.getElementById('stateHashValue').textContent = stateHash || '-';
+        document.getElementById('contentHashValue').textContent = contentHash || '-';
+        document.getElementById('fileSizeValue').textContent = fileSize || '-';
+        
+        // Pretty print JSON metadata
+        try {
+            const metadataObj = JSON.parse(metadata);
+            document.getElementById('metadataValue').textContent = JSON.stringify(metadataObj, null, 2);
+        } catch (e) {
+            document.getElementById('metadataValue').textContent = metadata || '-';
+        }
+        
+        document.getElementById('alertSentValue').textContent = alertSent || 'No';
+    }
+    
+    function toggleAdvancedFilter() {
+        const filterDiv = document.getElementById('advancedFilter');
+        if (filterDiv.style.display === 'none') {
+            filterDiv.style.display = 'block';
+        } else {
+            filterDiv.style.display = 'none';
+        }
+    }
+    
+    function resetFilters() {
+        document.querySelectorAll('.event-type-checkbox').forEach(cb => {
+            if (cb.value === 'all') {
+                cb.checked = true;
+            } else {
+                cb.checked = false;
+            }
+        });
+        
+        document.querySelectorAll('.column-checkbox').forEach(cb => {
+            if (cb.value === 'all') {
+                cb.checked = true;
+            } else {
+                cb.checked = false;
+            }
+        });
+        
+        document.getElementById('filterForm').submit();
+    }
+    
+    function applyFilters() {
+        updateHiddenInputs();
+        document.getElementById('mainForm').submit();
+    }
+    
+    function updateHiddenInputs() {
+        const eventTypes = [];
+        document.querySelectorAll('.event-type-checkbox:checked').forEach(cb => {
+            if (cb.value !== 'all') {
+                eventTypes.push(cb.value);
+            }
+        });
+        document.getElementById('eventTypesInput').value = eventTypes.length > 0 ? eventTypes.join(',') : '';
+        
+        const columns = [];
+        const allChecked = document.getElementById('colAll')?.checked;
+        if (!allChecked) {
+            document.querySelectorAll('.column-checkbox:checked').forEach(cb => {
+                if (cb.value !== 'all') {
+                    columns.push(cb.value);
+                }
+            });
+        }
+        document.getElementById('searchColumnsInput').value = columns.length > 0 ? columns.join(',') : '';
+    }
+    
+    // Handle column checkbox "All" logic
+    document.querySelectorAll('.column-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            if (this.value === 'all' && this.checked) {
+                document.querySelectorAll('.column-checkbox').forEach(cb => {
+                    if (cb.value !== 'all') cb.checked = false;
+                });
+            } else if (this.value !== 'all' && this.checked) {
+                document.getElementById('colAll').checked = false;
+            }
+        });
+    });
+    
+    // Handle event type checkbox "All" logic
+    document.querySelectorAll('.event-type-checkbox').forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            if (this.value === 'all' && this.checked) {
+                document.querySelectorAll('.event-type-checkbox').forEach(cb => {
+                    if (cb.value !== 'all') cb.checked = false;
+                });
+            } else if (this.value !== 'all' && this.checked) {
+                document.getElementById('eventAll').checked = false;
+            }
+        });
+    });
+    
+    // Handle search input Enter key
+    document.getElementById('searchInput')?.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            e.preventDefault();
+            updateHiddenInputs();
+            document.getElementById('mainForm').submit();
+        }
+    });
+    
+    // Handle search form submission
+    document.getElementById('mainForm')?.addEventListener('submit', function(e) {
+        e.preventDefault();
+        updateHiddenInputs();
+        this.submit();
+    });
+</script>
+{% endblock %}

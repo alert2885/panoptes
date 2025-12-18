@@ -1,0 +1,26 @@
+{
+  "endpoint": "workstation",
+  "agent_id": "agent-desktop-rev",
+  "watch_dirs": [
+    "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST3",
+    "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\TEST2"
+  ],
+  "exclude_dirs": [
+    "C:\\Users\\Ravan\\PycharmProjects\\REFER\\TEST\\ignoreme"
+  ],
+  "exclude_globs": [
+    "*.tmp",
+    "*.swp",
+    "~*"
+  ],
+  "central_api_url": "https://192.168.100.115:8443/fim/event",
+  "api_key": "1SW5tj3DT9UlJwBFigoVCcaUzuLJMJ",
+  "ca_cert": "certs\\ca.crt",
+  "client_cert": "certs\\agent-01.crt",
+  "client_key": "certs\\agent-01.key",
+  "timezone": "+04:00",
+  "chunk_size": 4096,
+  "chunk_max_bytes": 10485760,
+  "heartbeat_interval": 50,
+  "debug_http": false
+}

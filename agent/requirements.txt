@@ -1,0 +1,4 @@
+requests
+watchdog
+pywin32
+pillow
